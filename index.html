@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#700000">
+  <meta name="description" content="Jude Alvarez — an interactive exploration of a career in IT and systems administration.">
+  <title>Jude Alvarez — REDSHIFT / Career Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="control-header">
+    <a class="brand" href="#home" aria-label="Jude Alvarez, overview"><span class="brand-mark">JA<span>_</span></span><span class="brand-copy">REDSHIFT <small>CAREER PORTFOLIO / 2026</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-controls="nav" aria-expanded="false">Explore sections <span aria-hidden="true">＋</span></button>
+  </header>
+  <nav class="nav-rail" id="nav" aria-label="Portfolio sections">
+    <span class="rail-label">J / A</span>
+    <a class="nav-link active" href="#home" aria-label="Overview" aria-current="location"><span>00</span><b>Overview</b></a>
+    <a class="nav-link" href="#pathway" aria-label="Career pathway"><span>01</span><b>Pathway</b></a>
+    <a class="nav-link" href="#skills" aria-label="Technical skills"><span>02</span><b>Skills</b></a>
+    <a class="nav-link" href="#roles" aria-label="Job roles"><span>03</span><b>Roles</b></a>
+    <a class="nav-link" href="#about" aria-label="About Jude"><span>04</span><b>About Jude</b></a>
+    <span class="rail-end">IT / SYSTEMS</span>
+  </nav>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-coordinate mono">14°35' N &nbsp; 120°59' E<br>PERSONAL DEVELOPMENT / SEQUENCE 001</div>
+      <div class="hero-index mono">REDSHIFT <span>///</span> CAREER EXPLORER</div>
+      <div class="hero-name-wrap"><span class="hero-name-ghost" aria-hidden="true">JA</span><h1 id="hero-title">JUDE<br><span>ALVAREZ</span></h1><span class="name-marker mono">FIG. 01 / IDENTITY SIGNAL</span></div>
+      <div class="signal-art" aria-hidden="true"><svg viewBox="0 0 640 540" fill="none"><path class="wire wire-a" d="M365 38 526 142 564 280 427 446 264 483 119 367 91 195 216 83Z"/><path class="wire wire-b" d="m365 38 62 408M91 195l473 85M119 367l407-225M216 83l211 363M264 483l100-445M91 195l173 288M119 367l246-329"/><path class="wire wire-c" d="M45 270h178l96-110h206M160 510V350l126-88h270"/><circle cx="365" cy="38" r="5"/><circle cx="526" cy="142" r="4"/><circle cx="564" cy="280" r="5"/><circle cx="427" cy="446" r="4"/><circle cx="264" cy="483" r="6"/><circle cx="119" cy="367" r="4"/><circle cx="91" cy="195" r="6"/><circle cx="216" cy="83" r="4"/><circle class="core-dot" cx="322" cy="270" r="24"/><circle cx="322" cy="270" r="42"/><path class="crosshair" d="M322 208v124m-62-62h124"/></svg><span class="art-readout mono">SIGNAL / LEARNING IN PROGRESS</span></div>
+      <div class="hero-intro"><span class="eyebrow">IT / SYSTEMS / INFRASTRUCTURE</span><p>A career path through the systems that keep people and organizations connected.</p><a class="enter-link" href="#pathway"><span>ENTER THE PATHWAY</span><span aria-hidden="true">↘</span></a></div>
+      <div class="hero-bottom mono"><span>01 — AN INTERACTIVE CAREER MAP</span><span>SCROLL TO TRANSMIT <b>↓</b></span><span>BUILD / LEARN / SECURE</span></div>
+      <div class="side-coordinate mono" aria-hidden="true">SYSTEMS THINKING<br>CONTINUOUS LEARNING</div>
+    </section>
+    <div class="mission-strip"><span class="mono">TRANSMISSION 001</span><p>Reliable systems are invisible when they work — <strong>and essential every second.</strong></p><span class="strip-symbol" aria-hidden="true">✳</span></div>
+
+    <section class="pathway section-shell" id="pathway" aria-labelledby="path-title">
+      <header class="section-heading"><div><span class="eyebrow">01 / CAREER PATHWAY</span><h2 id="path-title">A practice in<br><em>progression.</em></h2></div><p>Choose a stage to trace the responsibilities, skills, and tools that shape a route through systems administration.</p></header>
+      <div class="path-track" role="group" aria-label="Select a career stage">
+        <div class="track-line" aria-hidden="true"><span id="trackProgress"></span></div>
+        <button class="stage-button selected" data-stage="0" aria-pressed="true"><span class="stage-num">LEVEL 01</span><span class="stage-shape shape-square" aria-hidden="true"></span><span class="stage-name">IT Support<br>Technician</span><span class="stage-caption">FOUNDATION</span></button>
+        <button class="stage-button" data-stage="1" aria-pressed="false"><span class="stage-num">LEVEL 02</span><span class="stage-shape shape-diamond" aria-hidden="true"></span><span class="stage-name">System<br>Administrator</span><span class="stage-caption">OPERATIONS</span></button>
+        <button class="stage-button" data-stage="2" aria-pressed="false"><span class="stage-num">LEVEL 03</span><span class="stage-shape shape-ring" aria-hidden="true"></span><span class="stage-name">Systems<br>Engineer</span><span class="stage-caption">ARCHITECTURE</span></button>
+      </div>
+      <article class="stage-detail" aria-live="polite" aria-atomic="true"><div class="detail-number mono" id="stageNumber">STAGE / 01</div><div class="detail-main"><span class="eyebrow" id="stageLabel">FOUNDATION / FIRST LINE</span><h3 id="stageTitle">IT Support Technician</h3><p id="stageDescription">Help users get back to work by diagnosing everyday device, application, account, and connectivity issues. This is where careful listening and methodical troubleshooting build a strong base.</p></div><div class="detail-aside"><div><span>RESPONSIBILITIES</span><p id="stageDuties">User support · Device setup and maintenance · Basic troubleshooting · Account and application support</p></div><div><span>CORE SKILLS / TOOLS</span><p id="stageTools">Ticket documentation · Windows fundamentals · Clear communication · Diagnostic process</p></div><div><span>NEXT POSSIBLE STEP</span><p id="stageNext">Build experience with endpoints, accounts, and common infrastructure services.</p></div></div></article>
+      <p class="pathway-note"><span aria-hidden="true">↗</span>Career routes are not always linear. Practice, projects, and focused learning can shape the next step.</p>
+    </section>
+
+    <section class="skills-section" id="skills" aria-labelledby="skills-title"><div class="section-shell">
+      <header class="section-heading"><div><span class="eyebrow">02 / TECHNICAL SKILLS</span><h2 id="skills-title">Connected by<br><em>curiosity.</em></h2></div><p>Select a node to explore a competency and how it supports dependable systems. This map describes areas of focus, not proficiency ratings.</p></header>
+      <div class="skill-orbit-layout"><div class="skill-visual" role="group" aria-label="Select a technical competency"><svg class="skill-links" viewBox="0 0 600 500" aria-hidden="true"><path d="M300 250 300 70M300 250 475 145M300 250 475 355M300 250 300 430M300 250 125 355M300 250 125 145"/></svg><div class="skill-core" aria-hidden="true"><span>JA</span><small>SYS / ADMIN</small></div>
+        <button class="skill-node n1 selected" data-skill="0" aria-pressed="true"><span>01</span><b>Operating<br>systems</b></button><button class="skill-node n2" data-skill="1" aria-pressed="false"><span>02</span><b>Networking</b></button><button class="skill-node n3" data-skill="2" aria-pressed="false"><span>03</span><b>Troubleshooting</b></button><button class="skill-node n4" data-skill="3" aria-pressed="false"><span>04</span><b>Security<br>fundamentals</b></button><button class="skill-node n5" data-skill="4" aria-pressed="false"><span>05</span><b>Scripting &<br>automation</b></button><button class="skill-node n6" data-skill="5" aria-pressed="false"><span>06</span><b>Communication &<br>documentation</b></button>
+      </div><article class="skill-detail" aria-live="polite" aria-atomic="true"><span class="detail-number mono" id="skillNumber">COMPETENCY / 01</span><span class="eyebrow" id="skillContext">FOUNDATION / ENVIRONMENTS</span><h3 id="skillTitle">Operating systems</h3><p id="skillDescription">Understand how Windows and Linux environments organize users, files, services, updates, and permissions.</p><div class="skill-application"><span>IN PRACTICE</span><p id="skillApplication">Support reliable endpoints and servers through configuration, maintenance, and a working knowledge of system behavior.</p></div><div class="skill-link-label mono">CONNECTED TO <span id="skillConnection">SERVER OPERATIONS / USER ACCESS</span></div></article></div>
+      <div class="lab-header"><div><span class="eyebrow">THE DIGITAL LABORATORY</span><h3>Technologies in the toolkit.</h3></div><p>Explore common technologies and the role each can play in systems administration. These are areas to learn, not claimed credentials.</p></div>
+      <div class="tech-list" role="group" aria-label="Select a technology"><button class="tech-button selected" data-tech="0" aria-pressed="true"><span>01</span><b>Windows Server</b><i>↗</i></button><button class="tech-button" data-tech="1" aria-pressed="false"><span>02</span><b>Linux</b><i>↗</i></button><button class="tech-button" data-tech="2" aria-pressed="false"><span>03</span><b>PowerShell / Bash</b><i>↗</i></button><button class="tech-button" data-tech="3" aria-pressed="false"><span>04</span><b>Cloud platforms</b><i>↗</i></button><button class="tech-button" data-tech="4" aria-pressed="false"><span>05</span><b>Virtualization</b><i>↗</i></button><button class="tech-button" data-tech="5" aria-pressed="false"><span>06</span><b>Monitoring & diagnostics</b><i>↗</i></button></div>
+      <div class="tech-detail" aria-live="polite" aria-atomic="true"><span class="mono" id="techIndex">TECHNOLOGY / 01</span><h4 id="techTitle">Windows Server</h4><p id="techDescription">An environment for directory services, user and device policies, file services, and other organization-wide infrastructure.</p><span class="mono tech-purpose" id="techPurpose">PURPOSE / MANAGE SHARED SERVICES AND ACCESS</span></div>
+    </div></section>
+
+    <section class="roles section-shell" id="roles" aria-labelledby="roles-title"><header class="section-heading"><div><span class="eyebrow">03 / JOB ROLES</span><h2 id="roles-title">Different focus.<br><em>Shared mission.</em></h2></div><p>Select a role to compare its day-to-day focus and expected outcome across the IT environment.</p></header>
+      <div class="role-explorer"><div class="role-selector" role="tablist" aria-label="Compare job roles"><button class="role-tab selected" role="tab" id="role-tab-0" aria-controls="role-panel" aria-selected="true" tabindex="0" data-role="0"><span>01</span>IT Support Technician</button><button class="role-tab" role="tab" id="role-tab-1" aria-controls="role-panel" aria-selected="false" tabindex="-1" data-role="1"><span>02</span>System Administrator</button><button class="role-tab" role="tab" id="role-tab-2" aria-controls="role-panel" aria-selected="false" tabindex="-1" data-role="2"><span>03</span>Network Administrator</button><button class="role-tab" role="tab" id="role-tab-3" aria-controls="role-panel" aria-selected="false" tabindex="-1" data-role="3"><span>04</span>Systems Engineer</button></div><article class="role-detail" role="tabpanel" id="role-panel" aria-labelledby="role-tab-0" tabindex="0"><span class="detail-number mono" id="roleNumber">ROLE / 01 — PEOPLE</span><h3 id="roleTitle">IT Support Technician</h3><div class="role-facts"><div><span>TECHNICAL FOCUS</span><p id="roleFocus">Endpoints, user accounts, applications, and first-line diagnosis.</p></div><div><span>RESPONSIBILITIES</span><p id="roleDuties">Set up devices, assist users, resolve common issues, and record useful solutions.</p></div><div><span>EXPECTED OUTCOME</span><p id="roleOutcome">People can return to work with working devices and access.</p></div></div></article><div class="role-index-mark" aria-hidden="true"><span id="roleMark">01</span><i></i><small>CONNECTED<br>RESPONSIBILITIES</small></div></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="about-grid section-shell"><div class="about-mark" aria-hidden="true"><span>JA</span><i></i><small>BUILD / LEARN / SECURE</small><b>J · A</b></div><div class="about-copy"><span class="eyebrow">04 / THE PERSON BEHIND THE PATH</span><h2 id="about-title">Meet Jude<br><em>Alvarez.</em></h2><p class="about-lead">An aspiring IT professional exploring how reliable infrastructure powers the digital experiences we depend on.</p><p>This portfolio presents a learning roadmap for system administration — from foundational support skills to managing and designing secure, dependable systems. The goal is to keep learning, practice with real-world scenarios, and build technology that people can trust.</p><div class="about-facts"><div><span>PROGRAM</span><strong>BS Information Technology</strong></div><div><span>CAREER INTEREST</span><strong>IT & System Administration</strong></div><div><span>DEVELOPMENT GOAL</span><strong>Grow into an infrastructure specialist</strong></div></div><a class="return-link" href="#home">RETURN TO START <span aria-hidden="true">↑</span></a></div></div></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">JA<span>_</span></span><span class="brand-copy">JUDE ALVAREZ <small>CAREER PORTFOLIO</small></span></a><p>Designed around curiosity. Built for continuous growth.</p><span class="mono">© 2026 / REDSHIFT</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
